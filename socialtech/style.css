@@ -832,7 +832,7 @@ footer{
 /* ミッションのメインビジュアル */
 /* background-position-y プロパティ */
 .mission-main-inner {
-    background-image: url("../images/mission/mission-main.png");
+    background-image: url("images/mission/mission-main.png");
     background-repeat: no-repeat;
     background-position-y: center;
   }
@@ -866,5 +866,71 @@ footer{
     top:350px;
     left:100px;
     font-size: 16px;
+}
+
+/* 「S2DGs」セクションにPC用のスタイルを適用しよう */
+/* section要素 */
+#mission-s2dgs{
+    padding: 20px;
+}
+
+/* 見出し */
+.mission-h2{
+    color: #2710d5;
+    font-size: 40px;
+}
+
+/*見出しの疑似要素  */
+.mission-h2::after{
+    content: none;
+}
+
+/* 「5Goals」セクションにPC用のスタイルを適用しよう */
+/* ミッションページ　５つのゴールの設定 */
+#mission-five-goals{
+    padding: 20px;
+    display: flex;
+}
+
+#mission-five-goals .five-goals-image{
+    width: 30%;
+    padding: 20px;
+}
+
+#mission-five-goals .five-goals-image img{
+    width: 100%;
+}
+
+#mission-five-goals .five-goals-read{
+    width: 70%;
+    padding: 20px;
+}
+
+#mission-five-goals .five-goals-read > div{
+    margin-bottom: 40px;
+}
+
+.fivegoals-image-right{
+    float: right;
+    margin: 20px;
+}
+
+.fivegoals-image-left{
+    float: left;
+    margin: 20px;
+}
+.fivegoals-number{
+    color: #2710d5;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+.fivegoals-h3{
+    font-size: 28px;
+    margin: 0;
+}
+
+.fivegoals-p{
+    margin: 0;
 }
 }
